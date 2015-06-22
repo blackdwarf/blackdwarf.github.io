@@ -1,39 +1,37 @@
 ---
 layout: default
-title: Main page
+title: Home
 ---
 
-<div class="row">
-  <div class="col-md-6 col-md-offset-2">
-    <div class="post-tile">
-      <h2>This is where the blog posts are going to be</h2>
-      <div class="post-metadata"><p><span class="fa fa-tags fa-fw"></span> tag1, tag2</p> <p><span class="fa fa-calendar fa-fw"></span> 5/30/2015</p> <p><span class="fa fa-pencil fa-fw"></span> <a href="about">black dwarf</a></div>
-      <p>Liquid markup uses double curly braces to output content. The first Liquid template tags that do this in the example above are {{ page.title }} and {{ content }}, which output the title and content of the blog post. A number of Jekyll variables are made available for outputting in templates.</p>
-    </div>
-    <div class="post-tile">
-      <h2><a href="#">This is where the blog posts are going to be</a></h2>
-      <div class="post-metadata"><p><span class="fa fa-tags"></span> tag1, tag2</p> <p><span class="fa fa-calendar"></span> 5/30/2015</p></div>
-      <p>Liquid markup uses double curly braces to output content. The first Liquid template tags that do this in the example above are {{ page.title }} and {{ content }}, which output the title and content of the blog post. A number of Jekyll variables are made available for outputting in templates.</p>
-    </div>
-    <div class="post-tile">
-      <h2>This is where the blog posts are going to be</h2>
-      <div class="post-metadata"><p><span class="fa fa-tags"></span> tag1, tag2</p> <p><span class="fa fa-calendar"></span> 5/30/2015</p></div>
-      <p>Liquid markup uses double curly braces to output content. The first Liquid template tags that do this in the example above are {{ page.title }} and {{ content }}, which output the title and content of the blog post. A number of Jekyll variables are made available for outputting in templates.</p>
-    </div>
-    <div class="post-tile">
-      <h2>This is where the blog posts are going to be</h2>
-      <div class="post-metadata"><p><span class="fa fa-tags"></span> tag1, tag2</p> <p><span class="fa fa-calendar"></span> 5/30/2015</p></div>
-      <p>Liquid markup uses double curly braces to output content. The first Liquid template tags that do this in the example above are {{ page.title }} and {{ content }}, which output the title and content of the blog post. A number of Jekyll variables are made available for outputting in templates.</p>
-    </div>
-    <div class="post-tile">
-      <div class="post-metadata"><span class="fa fa-tags"></span> tag1, tag2 <span class="fa fa-calendar"></span> 5/30/2015 10:40pm</div>
-      <h2>This is where the blog posts are going to be</h2>
-      <p>Liquid markup uses double curly braces to output content. The first Liquid template tags that do this in the example above are {{ page.title }} and {{ content }}, which output the title and content of the blog post. A number of Jekyll variables are made available for outputting in templates.</p>
-    </div>
-    <div class="post-tile">
-      <div class="post-metadata"><span class="fa fa-tags"></span> tag1, tag2 <span class="fa fa-calendar"></span> 5/30/2015 10:40pm</div>
-      <h2>This is where the blog posts are going to be</h2>
-      <p>Liquid markup uses double curly braces to output content. The first Liquid template tags that do this in the example above are {{ page.title }} and {{ content }}, which output the title and content of the blog post. A number of Jekyll variables are made available for outputting in templates.</p>
-    </div>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
   </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>

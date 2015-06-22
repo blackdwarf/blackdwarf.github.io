@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-  {% include site-head.html %}
-<body>
-  {% include main-navigation.html %}
-  {% include header.html %}
+<html lang="en-us">
 
-  <div class="container-fluid">
-    {{ content }}
-  </div>
+  {% include head.html %}
 
+  <body>
 
-<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
-</body>
+    {% include sidebar.html %}
+
+    <div class="content container">
+      {{ content }}
+    </div>
+
+  </body>
 </html>
