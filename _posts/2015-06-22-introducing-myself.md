@@ -7,4 +7,4 @@ title: About Dwarven Blues
 Tolkien, of course silly.
 
 ## Why Blues?
-'Cause I'm awfully sad person.
+'Cause I'm awfully sad person. And I like the blues. 
