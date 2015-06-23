@@ -1,6 +1,15 @@
 ---
 layout: page
-title: About page
+title: About
 ---
 
-## This is an about me page
+## About me
+
+## Where to find me?
+
+* twitter
+* github
+
+## About this blog
+This blog is using the fabulous Hyde theme that is based on Poole, the Jekyll bu
+tler, made by @mdo. Take a look at it, since it
