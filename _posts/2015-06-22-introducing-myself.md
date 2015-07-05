@@ -3,8 +3,17 @@ layout: post
 title: About Dwarven Blues
 ---
 
-## No, it has nothing to do with little people
-Tolkien, of course silly.
+# A test of CSS page styles
+This is just a test page for CSS styles for various elements, like, for 
+instance [links](https://www.github.com/), then
+`blockquotes`.
 
-## Why Blues?
-'Cause I'm awfully sad person. And I like the blues. 
+## Lower heading leves as well
+
+### Some lists too
+
+* Item1
+* Item 2
+
+Or some code blocks and such...
+

@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -26,9 +26,11 @@
         {% endif %}
       {% endfor %}
 
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <div class="social-badges">
+        <div class="social-git"><a href="https://www.github.com/blackdwarf"><span class="fa fa-github fa-2x"></span></div>
+        <div class="social-twitter"><a href="https://twitter.com/blackdwarph"><span class="fa fa-twitter-square fa-2x"></span></a></div>
+        <div class="rss-feed"><a href="#"><span class="fa fa-rss-square fa-2x"></span></a></div>
+    </div>
   </div>
 </div>
