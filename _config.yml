@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            DwarvenLair
 tagline:          'Dwarven Blues'
-description:      'Stories and other things...'
+description:      'Tales from Under the Mountain'
 url:              http://hyde.getpoole.com
 baseurl:          /
 

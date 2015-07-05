@@ -11,6 +11,11 @@
 /* Overrides for the main elements */
 html {
     font-family: Lato, 'Open Sans', 'Helvetica', 'sans-serif';
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 a:hover {
     color: #217AB8;
@@ -18,7 +23,8 @@ a:hover {
 
 /* Overrides for sidebar */
 .sidebar {
-    background-color: #4A4A4A;
+    /*background-color: #4A4A4A;*/
+    background-color: #20272E;
 }
 
 
@@ -39,6 +45,22 @@ a:hover {
 .sidebar-about h1 {
     font-size: 1.9em;
 }
+/* End sidebar overrides */
+
+/* New sidebar styles */
+
+.sidebar-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url('/images/cbtitle.jpeg') no-repeat;
+    border: 2px solid #fff;
+    background-position: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 2px black;
+}
 .social-badges {
     text-align: center;
     margin-top 70px;
@@ -46,6 +68,9 @@ a:hover {
 .social-badges > div {
     display: inline;
     margin-right: 10px;
+}
+.sidebar-container {
+    text-align: center;
 }
 
 /* Social badges styles */
