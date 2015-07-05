@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            DwarvenLair
+title:            'Tales from Under the Mountain'
 tagline:          'Dwarven Blues'
-description:      'Tales from Under the Mountain'
+description:      'Of smithing & storytelling'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
