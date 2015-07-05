@@ -3,8 +3,7 @@ layout: page
 title: Writings
 ---
 
-## Writings in anthropology
+## Test page to list out the articles 
 
 
-## Other stuff
-Well, this is a blog, so everything is pretty much already in there. :)
+## Blog
