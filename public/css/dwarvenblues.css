@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&subset=latin,latin-ext);
+
+/* Overrides for the main elements */
+html {
+    font-family: Lato, 'Open Sans', 'Helvetica', 'sans-serif';
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+a:hover {
+    color: #217AB8;
+}
+
+/* Overrides for sidebar */
+.sidebar {
+    /*background-color: #4A4A4A;*/
+    background-color: #20272E;
+}
+
+
+.sidebar a {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.0em;
+    text-shadow: 1px 1px 1px black;
+}
+.sidebar a:hover {
+   color: #268bd2;
+   text-decoration: none;
+   transition: color .15s cubic-bezier(.33, .66, .66, 1);
+} 
+.sidebar-nav-item.active {
+    font-weight: 300;
+}
+.sidebar-about h1 {
+    font-size: 1.9em;
+}
+/* End sidebar overrides */
+
+/* New sidebar styles */
+
+.sidebar-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url('/images/cbtitle.jpeg') no-repeat;
+    border: 2px solid #fff;
+    background-position: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 2px black;
+}
+.social-badges {
+    text-align: center;
+    margin-top 70px;
+ }
+.social-badges > div {
+    display: inline;
+    margin-right: 10px;
+}
+.sidebar-container {
+    text-align: center;
+}
+
+/* Social badges styles */
+.social-git > a:hover {
+    color: #c0c0c0;
+    transition: color .15s cubic-bezier(.33, .66, .66, 1);
+}
+.social-twitter > a:hover {
+    color: #55acee;
+    transition: color .15s cubic-bezier(.33, .66, .66, 1);
+}
+.rss-feed > a:hover {
+    color: #ff6600;
+    transition: color .15s cubic-bezier(.33, .66, .66, 1);
+}
+
