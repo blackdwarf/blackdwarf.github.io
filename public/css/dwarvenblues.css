@@ -93,7 +93,8 @@ a:hover {
  }
 .social-badges > div {
     display: inline;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
+    padding-right: 10px;
 }
 .sidebar-container {
     text-align: center;
