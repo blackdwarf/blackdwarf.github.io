@@ -2,18 +2,32 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic);
 
 /* Overrides for the main elements */
 html {
-    font-family: Lato, 'Open Sans', 'Helvetica', 'sans-serif';
+    font-family: Lato, 'Helvetica', 'sans-serif';
     font-weight: 300;
+    font-size: 18px;
 }
 h1, h2, h3, h4, h5 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
+    font-family: Lora, 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+a {
+    /*color: #ffc828;*/
+    /*color: #ff6600;*/
+    /*color: #268bd2;*/
+    /*color: #217AB8;*/
+    color: #1E6EA6;
 }
 a:hover {
-    color: #217AB8;
+    /*color: #217AB8;*/
+    /*color: #CCA020;*/
+    color: #2CA0F2;
+    transition: color 0.4s;
+    text-decoration: none;
 }
 
 /* End overrides for main elements */
@@ -27,7 +41,6 @@ a:hover {
 
 /* Overrides for sidebar */
 .sidebar {
-    /*background-color: #4A4A4A;*/
     background-color: #20272E;
 }
 .sidebar-about {
@@ -40,9 +53,11 @@ a:hover {
     text-shadow: 1px 1px 1px black;
 }
 .sidebar a:hover {
-   color: #268bd2;
+   /*color: #268bd2;*/
+   /*color: #ffc828;*/
+    color: #ff6600;
    text-decoration: none;
-   transition: color .15s cubic-bezier(.33, .66, .66, 1);
+   transition: color 0.45s; 
 } 
 .sidebar-nav-item.active {
     font-weight: 300;
@@ -87,14 +102,14 @@ a:hover {
 /* Social badges styles */
 .social-git > a:hover {
     color: #c0c0c0;
-    transition: color .15s cubic-bezier(.33, .66, .66, 1);
+    transition: color .35s; 
 }
 .social-twitter > a:hover {
     color: #55acee;
-    transition: color .15s cubic-bezier(.33, .66, .66, 1);
+    transition: color .35s;
 }
 .rss-feed > a:hover {
     color: #ff6600;
-    transition: color .15s cubic-bezier(.33, .66, .66, 1);
+    transition: color .35s; 
 }
 

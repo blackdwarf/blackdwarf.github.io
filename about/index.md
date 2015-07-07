@@ -16,7 +16,8 @@ one.
 ## About the blog
 This blog represents my oppinions on several topics, from computing to social 
 problems, anthropology, leftism and others. It is in no way representative of 
-opinions of my employer. 
+opinions of my employer. I know, sounds cheesy, but I have to have it on there
+somewhere.
 
 This blog is built using the amazing [Jekyll]() static site/blog generator, 
 and hosted on [GitHub Pages](https://pages.github.com/). 
