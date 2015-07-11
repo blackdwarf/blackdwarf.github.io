@@ -9,7 +9,7 @@
 html {
     font-family: Lato, 'Helvetica', 'sans-serif';
     font-weight: 300;
-    font-size: 18px;
+    /*font-size: 18px;*/
 }
 h1, h2, h3, h4, h5 {
     font-family: Lora, 'Open Sans Condensed', sans-serif;
@@ -89,12 +89,12 @@ a:hover {
 }
 .social-badges {
     text-align: center;
-    margin-top 70px;
+    /*margin-top 70px;*/
  }
 .social-badges > div {
     display: inline;
-    /*margin-right: 10px;*/
-    padding-right: 10px;
+    margin-right: 10px;
+    /*padding-right: 10px;*/
 }
 .sidebar-container {
     text-align: center;
