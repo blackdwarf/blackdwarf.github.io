@@ -1,22 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext);
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,latin-ext);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext);
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&subset=latin,latin-ext);
+@import url(//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext);
 
 
-/* Chrome stuff for web fonts */
-body {
-  -webkit-animation-duration: 0.1s;
-  -webkit-animation-name: fontfix;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: 0.1s;
-}
 
-@-webkit-keyframes fontfix {
-  from { opacity: 1; }
-  to { opacity: 1; }
-}
 
 /* Overrides for the main elements */
 html {
