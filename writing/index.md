@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Writings
+title: Word smithing
 ---
 
-## Anthropological writings
-Back in the day, I used to enjoy my other job, which was doing anthropology. 
-This page lists out the anthropological writing that I've done in the last few 
-years.  
+Besides this blog and its contents, there have been occasions where I wrote 
+someting longer and oriented towards a different goal. This page lists out those 
+writings for your reading pleasure. And also because I need a place where I can 
+always find these. 
 
 * [As Time Passes Us By: Temporal Dimensions in Formulas](http://anthroserbia.org/Journals/Article/123)
 
@@ -30,9 +30,6 @@ years.
     body of narratives, we have seen how rigid and one-sided process of 
     classification, which treats genre as a category fixed in time and space, 
     ultimately damages our analysis of folklore materials.*
-
-I've also written a short paper for a conference on Science Fiction and 
-Ahtropology that is part of the proceedings. 
 
 * [On Something out of Nothing and Positronic Souls: Anthropology, Science Fiction and Technology](http://anthroserbia.org/Publications/Details/41)
 

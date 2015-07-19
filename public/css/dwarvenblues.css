@@ -2,15 +2,14 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext);
 @import url(//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&subset=latin,latin-ext);
 @import url(//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext);
-
-
-
+@import url(http://fonts.googleapis.com/css?family=Jura:400,600,500,300);
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700,700italic,400italic);
 
 /* Overrides for the main elements */
 html {
-    font-family: Lato, 'Helvetica', 'sans-serif';
+    font-family: 'Open Sans', Lato, 'Helvetica', 'sans-serif';
     font-weight: 300;
-    /*font-size: 18px;*/
+    font-size: 18px;
 }
 h1, h2, h3, h4, h5 {
     font-family: Lora, 'Open Sans Condensed', sans-serif;
@@ -47,23 +46,24 @@ a:hover {
 .sidebar-about {
     margin-bottom: 30px;
 }
-.sidebar a {
+.sidebar a  {
     font-family: 'Open Sans', 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1.0em;
+    /*font-size: 16px;*/
     text-shadow: 1px 1px 1px black;
 }
 .sidebar a:hover {
    /*color: #268bd2;*/
    /*color: #ffc828;*/
-    color: #ff6600;
+   color: #ff6600;
    text-decoration: none;
    transition: color 0.45s; 
 } 
 .sidebar-nav-item.active {
     font-weight: 300;
 }
-.sidebar-about h1 {
+.sidebar-about > h1 {
     font-size: 1.9em;
 }
 /* End sidebar overrides */
@@ -75,8 +75,10 @@ a:hover {
     height: 150px;
     border-radius: 50%;
     background: url('/images/cbtitle.jpeg') no-repeat;
+    background-color: #000;
+    /*background: url('/images/slayer1.jpg') no-repeat;*/
     border: 2px solid #fff;
-    background-position: center;
+    background-position: top;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
