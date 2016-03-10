@@ -5,12 +5,12 @@ title: About
 
 In the real world, my name is Zlatko Knežević, but people like to call me "Z". 
 Just Z. Not "Zed", which is very important, because "Zed's dead baby, Zed's dead". 
-I like to think of myself as a leftie with strong affinity for programming, 
-science fiction and various trivia around things that most people don't really 
-care about. 
+I like to think of myself as a Lefty with strong affinity for programming, 
+science fiction and a voracious appetite for various trivia tidbits, especially 
+if they have to do with computing history. 
 
-My general moto is [*I aim to misbehave*](https://www.youtube.com/watch?v=1VR3Av9qfZc). 
-I just had to put it in there.
+My general motto is [*I aim to misbehave*](https://www.youtube.com/watch?v=1VR3Av9qfZc). 
+It generally means that *status quo* annoys me and I always want to change it. 
 
 ## What do I work on day to day?
 For the past 10-ish years I've been working for Microsoft on variety of stuff, 
@@ -31,7 +31,7 @@ Blog is built using the amazing [Jekyll](http://www.jekyllrb.com/) static
 site/blog generator, and hosted on [GitHub Pages](https://pages.github.com/). 
 
 It is also using a very pretty theme called [Hyde](https://github.com/poole/hyde) 
-built by [@mdo](https://github.com/mdo), with some changes for links and the 
-like. 
+built by [@mdo](https://github.com/mdo), with some changes for typefaces and 
+other things. 
 
 
